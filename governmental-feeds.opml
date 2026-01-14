@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Governmental RSS Feeds - Federal Agencies</title>
+    <dateCreated>2026-01-14T00:00:00Z</dateCreated>
+    <dateModified>2026-01-14T00:00:00Z</dateModified>
+    <ownerName>Personal Government Feed Tracker</ownerName>
+    <ownerEmail>admin@localhost</ownerEmail>
+    <docs>http://opml.org/spec2.opml.html</docs>
+  </head>
+  <body>
+    <!-- LEGISLATIVE FEEDS -->
+    <outline text="Legislative" title="Legislative Branch">
+      <outline text="Congress.gov" title="Congress.gov - Bill Status" xmlUrl="https://www.congress.gov/rss/House.xml" type="rss"/>
+      <outline text="Senate.gov News" title="U.S. Senate News &amp; Press" xmlUrl="https://www.senate.gov/rss/all_releases.xml" type="rss"/>
+      <outline text="House.gov News" title="U.S. House of Representatives News" xmlUrl="https://www.house.gov/rss.xml" type="rss"/>
+    </outline>
+
+    <!-- WHITE HOUSE -->
+    <outline text="Executive Office" title="Executive Branch">
+      <outline text="White House Briefing Room" title="White House Press Releases" xmlUrl="https://www.whitehouse.gov/feed/" type="rss"/>
+      <outline text="OMB Memoranda" title="Office of Management &amp; Budget" xmlUrl="https://www.whitehouse.gov/omb/information-regulatory-affairs/memoranda/" type="rss"/>
+    </outline>
+
+    <!-- FEDERAL REGISTER -->
+    <outline text="Federal Register" title="Federal Register &amp; Regulations">
+      <outline text="Federal Register Updates" title="Federal Register Daily Updates" xmlUrl="https://www.federalregister.gov/rss/feed.xml" type="rss"/>
+    </outline>
+
+    <!-- TREASURY &amp; FINANCIAL -->
+    <outline text="Treasury &amp; Finance" title="Treasury Department &amp; Financial Agencies">
+      <outline text="Treasury News" title="U.S. Department of Treasury News" xmlUrl="https://www.treasury.gov/news/Pages/default.aspx" type="rss"/>
+      <outline text="SEC News" title="SEC Press Releases" xmlUrl="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000928730&amp;type=&amp;dateb=&amp;owner=exclude&amp;count=100&amp;search_text=" type="rss"/>
+      <outline text="Federal Reserve" title="Federal Reserve News &amp; Events" xmlUrl="https://www.federalreserve.gov/feeds/news.xml" type="rss"/>
+    </outline>
+
+    <!-- LABOR &amp; EMPLOYMENT -->
+    <outline text="Labor" title="Labor &amp; Employment Agencies">
+      <outline text="Department of Labor" title="U.S. Department of Labor News" xmlUrl="https://www.dol.gov/newsroom/rss/" type="rss"/>
+      <outline text="OSHA News" title="OSHA Newsroom" xmlUrl="https://www.osha.gov/news" type="rss"/>
+      <outline text="EEOC News" title="EEOC Press Releases" xmlUrl="https://www.eeoc.gov/newsroom" type="rss"/>
+    </outline>
+
+    <!-- HEALTH &amp; HHS -->
+    <outline text="Health" title="Health &amp; Human Services">
+      <outline text="HHS News" title="Department of Health &amp; Human Services" xmlUrl="https://www.hhs.gov/news/index.html" type="rss"/>
+      <outline text="FDA News" title="FDA News Releases" xmlUrl="https://www.fda.gov/news-events/fda-newsroom" type="rss"/>
+      <outline text="CDC Updates" title="CDC Newsroom" xmlUrl="https://www.cdc.gov/media/rss.html" type="rss"/>
+      <outline text="NIH News" title="National Institutes of Health News" xmlUrl="https://www.nih.gov/news-events" type="rss"/>
+    </outline>
+
+    <!-- ENVIRONMENTAL -->
+    <outline text="Environmental" title="Environmental &amp; Energy Agencies">
+      <outline text="EPA News" title="U.S. Environmental Protection Agency" xmlUrl="https://www.epa.gov/rss/epa-news.xml" type="rss"/>
+      <outline text="DOE News" title="Department of Energy News" xmlUrl="https://www.energy.gov/news" type="rss"/>
+      <outline text="NOAA News" title="NOAA News" xmlUrl="https://www.noaa.gov/news" type="rss"/>
+    </outline>
+
+    <!-- HOMELAND SECURITY -->
+    <outline text="Security" title="Homeland Security &amp; Defense">
+      <outline text="DHS News" title="Department of Homeland Security" xmlUrl="https://www.dhs.gov/news" type="rss"/>
+      <outline text="TSA News" title="Transportation Security Administration" xmlUrl="https://www.tsa.gov/news" type="rss"/>
+      <outline text="CBP News" title="Customs &amp; Border Protection" xmlUrl="https://www.cbp.gov/newsroom" type="rss"/>
+    </outline>
+
+    <!-- JUSTICE &amp; LAW ENFORCEMENT -->
+    <outline text="Justice" title="Justice &amp; Law Enforcement">
+      <outline text="DOJ News" title="Department of Justice" xmlUrl="https://www.justice.gov/news" type="rss"/>
+      <outline text="FBI News" title="FBI News &amp; Updates" xmlUrl="https://www.fbi.gov/news" type="rss"/>
+      <outline text="ATF News" title="Bureau of Alcohol, Tobacco, Firearms" xmlUrl="https://www.atf.gov/news" type="rss"/>
+    </outline>
+
+    <!-- STATE DEPARTMENT -->
+    <outline text="State" title="State Department &amp; Foreign Affairs">
+      <outline text="State News" title="U.S. Department of State News" xmlUrl="https://www.state.gov/rss-feeds/" type="rss"/>
+      <outline text="USAID News" title="USAID News &amp; Updates" xmlUrl="https://www.usaid.gov/news" type="rss"/>
+    </outline>
+
+    <!-- DEFENSE -->
+    <outline text="Defense" title="Department of Defense">
+      <outline text="DoD News" title="Department of Defense News" xmlUrl="https://www.defense.gov/News/" type="rss"/>
+      <outline text="Military.com" title="Military News &amp; Updates" xmlUrl="https://www.military.com/news" type="rss"/>
+    </outline>
+
+    <!-- COMMERCE &amp; TRADE -->
+    <outline text="Commerce" title="Commerce &amp; Trade">
+      <outline text="Commerce News" title="Department of Commerce" xmlUrl="https://www.commerce.gov/news" type="rss"/>
+      <outline text="USPTO News" title="U.S. Patent &amp; Trademark Office" xmlUrl="https://www.uspto.gov/news" type="rss"/>
+    </outline>
+
+    <!-- TRANSPORTATION -->
+    <outline text="Transportation" title="Transportation &amp; Infrastructure">
+      <outline text="DOT News" title="Department of Transportation" xmlUrl="https://www.transportation.gov/news" type="rss"/>
+      <outline text="FAA News" title="Federal Aviation Administration" xmlUrl="https://www.faa.gov/news" type="rss"/>
+      <outline text="NHTSA News" title="National Highway Traffic Safety Admin" xmlUrl="https://www.nhtsa.gov/news" type="rss"/>
+    </outline>
+
+    <!-- INTERIOR &amp; NATURAL RESOURCES -->
+    <outline text="Interior" title="Interior &amp; Natural Resources">
+      <outline text="Interior News" title="Department of the Interior" xmlUrl="https://www.doi.gov/news" type="rss"/>
+      <outline text="USGS News" title="U.S. Geological Survey News" xmlUrl="https://www.usgs.gov/news" type="rss"/>
+      <outline text="NPS News" title="National Park Service News" xmlUrl="https://www.nps.gov/news" type="rss"/>
+    </outline>
+
+    <!-- AGRICULTURE -->
+    <outline text="Agriculture" title="Agriculture &amp; Food">
+      <outline text="USDA News" title="U.S. Department of Agriculture" xmlUrl="https://www.usda.gov/news" type="rss"/>
+      <outline text="FDA Food News" title="FDA Food Safety News" xmlUrl="https://www.fda.gov/food/news-events" type="rss"/>
+    </outline>
+
+    <!-- EDUCATION &amp; LABOR -->
+    <outline text="Education" title="Education &amp; Training">
+      <outline text="ED News" title="Department of Education" xmlUrl="https://www.ed.gov/news" type="rss"/>
+      <outline text="ED Student Aid" title="Federal Student Aid Updates" xmlUrl="https://studentaid.gov/announcements-events" type="rss"/>
+    </outline>
+
+    <!-- HOUSING &amp; URBAN DEV -->
+    <outline text="HUD" title="Housing &amp; Urban Development">
+      <outline text="HUD News" title="Department of Housing &amp; Urban Dev" xmlUrl="https://www.hud.gov/news" type="rss"/>
+    </outline>
+
+    <!-- VETERANS AFFAIRS -->
+    <outline text="Veterans" title="Veterans Affairs">
+      <outline text="VA News" title="Department of Veterans Affairs" xmlUrl="https://www.va.gov/news" type="rss"/>
+    </outline>
+
+    <!-- GENERAL GOVERNMENT -->
+    <outline text="General Services" title="General Services &amp; Administration">
+      <outline text="GSA News" title="General Services Administration" xmlUrl="https://www.gsa.gov/news" type="rss"/>
+      <outline text="OPM News" title="Office of Personnel Management" xmlUrl="https://www.opm.gov/news" type="rss"/>
+    </outline>
+
+    <!-- INDEPENDENT AGENCIES -->
+    <outline text="Independent" title="Independent Agencies">
+      <outline text="FCC News" title="Federal Communications Commission" xmlUrl="https://www.fcc.gov/news-events" type="rss"/>
+      <outline text="FTC News" title="Federal Trade Commission" xmlUrl="https://www.ftc.gov/news-events" type="rss"/>
+      <outline text="NASA News" title="NASA News &amp; Updates" xmlUrl="https://www.nasa.gov/news/" type="rss"/>
+      <outline text="SSA News" title="Social Security Administration" xmlUrl="https://www.ssa.gov/news" type="rss"/>
+    </outline>
+
+    <!-- GRANTS &amp; FUNDING -->
+    <outline text="Funding" title="Grants &amp; Funding Opportunities">
+      <outline text="Grants.gov" title="Grants.gov Opportunities" xmlUrl="https://www.grants.gov/news" type="rss"/>
+      <outline text="SBA News" title="Small Business Administration" xmlUrl="https://www.sba.gov/news" type="rss"/>
+    </outline>
+
+    <!-- COMPLIANCE &amp; REGULATIONS -->
+    <outline text="Compliance" title="Compliance &amp; Regulatory Updates">
+      <outline text="GovInfo" title="GovInfo Congressional Documents" xmlUrl="https://www.govinfo.gov/" type="rss"/>
+      <outline text="Regulations.gov" title="Regulations and Public Comments" xmlUrl="https://www.regulations.gov/" type="rss"/>
+    </outline>
+  </body>
+</opml>

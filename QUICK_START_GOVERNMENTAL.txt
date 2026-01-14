@@ -1,0 +1,148 @@
+═══════════════════════════════════════════════════════════════════════════════
+  GOVERNMENTAL RSS FEED READER - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+WHAT YOU GET:
+  • Personal RSS feed reader (FreshRSS)
+  • Pre-configured list of 50+ U.S. federal agency feeds
+  • Custom "Government Official" theme (professional, high-contrast)
+  • Complete setup guide (see GOVERNMENTAL_RSS_SETUP.md)
+
+QUICK SETUP (5 minutes):
+
+  1. PHP SERVER:
+     php -S localhost:8080 -t p/
+
+  2. DOCKER:
+     docker-compose up -d
+
+  3. OPEN BROWSER:
+     http://localhost:8080
+
+  4. RUN SETUP:
+     php cli/do-install.php --default-user admin --default-password yourpassword
+
+  5. IMPORT FEEDS:
+     - Settings → Import OPML
+     - Upload: governmental-feeds.opml
+     - Wait for sync
+
+  6. SELECT THEME:
+     - Settings → Appearance
+     - Theme: "Government Official"
+
+ACCESSING FEEDS:
+
+  • Left sidebar shows feed categories
+  • Click category to see all feeds
+  • Click feed to see articles
+  • Star important articles (keyboard: f)
+  • Mark as read (keyboard: m)
+  • Type 'j'/'k' to navigate articles
+
+KEYBOARD SHORTCUTS:
+
+  v     Open article in new tab
+  f     Star/favorite article
+  m     Mark as read/unread
+  n     Next unread article
+  p     Previous unread article
+  j/k   Down/up navigation
+  ?     Show all shortcuts
+  esc   Close article
+
+FEED CATEGORIES INCLUDED:
+
+  ✓ Legislative (Congress, Senate, House)
+  ✓ White House & Executive
+  ✓ Federal Register & Regulations
+  ✓ Financial (Treasury, SEC, Fed Reserve)
+  ✓ Health (HHS, FDA, CDC, NIH)
+  ✓ Labor (DOL, OSHA, EEOC)
+  ✓ Environment (EPA, DOE, NOAA)
+  ✓ Security (DHS, TSA, CBP)
+  ✓ Justice (DOJ, FBI, ATF)
+  ✓ State Department
+  ✓ Defense
+  ✓ Commerce & Trade
+  ✓ Transportation
+  ✓ Interior & Resources
+  ✓ Agriculture
+  ✓ Education
+  ✓ Veterans Affairs
+  ✓ Housing & Urban Dev
+  ✓ General Services
+  ✓ Independent Agencies
+  ✓ Grants & Funding
+
+RECOMMENDED SETTINGS:
+
+  Refresh Interval:     Every 3-4 hours
+  Articles per page:    25-50
+  View Mode:            Expanded or List
+  Theme:                Government Official
+  Dark Mode:            On (or Auto)
+  Show Favicons:        Yes
+  Show Author:          Yes
+  Show Tags:            Yes
+
+MANAGING FEEDS:
+
+  Add Feed:        Settings → Subscriptions → New subscription
+  Remove Feed:     Feed settings → Unsubscribe
+  Refresh Now:     Feed settings → Refresh
+  View Feed URL:   Feed settings (shows last update, errors)
+  Create Category: Settings → Subscriptions → New category
+
+COMMON TASKS:
+
+  Monitor Federal Register:    Look for 30-60 day comment periods
+  Track Proposed Rules:        Subscribe to agency-specific feeds
+  Find New Legislation:        Check Congress.gov feed daily
+  Watch for Alerts:            Set up saved searches for keywords
+  Export Important Articles:   Use browser Print to PDF
+
+ADDING MORE FEEDS:
+
+  1. Search government agency website for RSS/feed
+  2. Copy the feed URL (ends in /rss, /feed.xml, etc.)
+  3. Settings → New subscription
+  4. Paste URL and select category
+  5. Subscribe
+
+BACKING UP DATA:
+
+  Export OPML:
+    Settings → Subscriptions → Export OPML
+
+  Database Backup:
+    cp -r data/ data-backup-$(date +%Y%m%d)/
+
+TROUBLESHOOTING:
+
+  Feed won't update?
+    → Check URL is valid in browser
+    → Try manual refresh in feed settings
+    → Check for error messages
+
+  Can't see articles?
+    → Refresh feed (feed settings)
+    → Check unread filter is off
+    → Try different view mode
+
+  Theme looks wrong?
+    → Clear browser cache (Ctrl+Shift+Del)
+    → Select theme again
+    → Refresh page
+
+MORE HELP:
+
+  Full Guide:      GOVERNMENTAL_RSS_SETUP.md
+  FreshRSS Docs:   README.md
+  FreshRSS GitHub: https://github.com/FreshRSS/FreshRSS
+
+═══════════════════════════════════════════════════════════════════════════════
+
+READY TO START? → Open http://localhost:8080 and begin!
+
+═══════════════════════════════════════════════════════════════════════════════
