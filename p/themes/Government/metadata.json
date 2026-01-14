@@ -1,0 +1,8 @@
+{
+	"name": "Government Official",
+	"author": "Personal RSS Reader",
+	"description": "Professional theme for tracking governmental RSS feeds with high contrast and accessibility",
+	"version": 1.0,
+	"files": ["government.css"],
+	"theme-color": {"dark": "#0a1428", "light": "#f8f9fa"}
+}
